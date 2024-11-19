@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Learning Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>JavaScript Learning Tracker</h1>
+    <button id="theme-toggle">🌙 Dark Mode</button>
+  </header>
+
+  <main>
+    <!-- Progress Section -->
+    <section id="progress-section">
+      <h2>Progress</h2>
+      <div class="progress-bar">
+        <div id="progress-fill"></div>
+      </div>
+      <p id="progress-percentage">0% Completed</p>
+    </section>
+
+    <!-- Topics Section -->
+    <section id="topics">
+      <!-- Basics of JavaScript -->
+      <div class="topic">
+        <h3>1. Basics of JavaScript</h3>
+        <div class="topic-content">
+          <ul>
+            <li><input type="checkbox" class="progress-check" data-topic="basics-syntax"> Syntax and Variables (var, let, const)</li>
+            <li><input type="checkbox" class="progress-check" data-topic="basics-datatypes"> Data Types (string, number, boolean, etc.)</li>
+            <li><input type="checkbox" class="progress-check" data-topic="basics-operators"> Operators (arithmetic, assignment, comparison)</li>
+            <li><input type="checkbox" class="progress-check" data-topic="basics-conditionals"> Conditional Statements (if, else, switch)</li>
+          </ul>
+          <a href="https://youtu.be/W6NZfCO5SIk" target="_blank">Watch Tutorial</a>
+          <p>Exercises:
+            <ul>
+              <li>Write a program to check if a number is even or odd.</li>
+              <li>Create a calculator using basic operators.</li>
+            </ul>
+          </p>
+          <p>Extra Theory:
+            <ul>
+              <li>Hoisting: Understand how variable declarations are "hoisted".</li>
+              <li>Temporal Dead Zone: Learn about let and const scoping.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <!-- Control Flow and Loops -->
+      <div class="topic">
+        <h3>2. Control Flow and Loops</h3>
+        <div class="topic-content">
+          <ul>
+            <li><input type="checkbox" class="progress-check" data-topic="loops-for"> Loops (for, while, do...while)</li>
+            <li><input type="checkbox" class="progress-check" data-topic="loops-break"> break and continue</li>
+            <li><input type="checkbox" class="progress-check" data-topic="loops-functions"> Functions (declaration, expression, arrow)</li>
+          </ul>
+          <a href="https://youtu.be/hdI2bqOjy3c" target="_blank">Watch Tutorial</a>
+          <p>Exercises:
+            <ul>
+              <li>Generate a multiplication table for a given number.</li>
+              <li>Create a function to return a number's factorial.</li>
+            </ul>
+          </p>
+          <p>Extra Theory:
+            <ul>
+              <li>Pure Functions: No side effects.</li>
+              <li>Scope: Understand global, local, and block scope.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <!-- DOM Manipulation -->
+      <div class="topic">
+        <h3>3. DOM Manipulation</h3>
+        <div class="topic-content">
+          <ul>
+            <li><input type="checkbox" class="progress-check" data-topic="dom-selectors"> Selecting Elements</li>
+            <li><input type="checkbox" class="progress-check" data-topic="dom-events"> Event Listeners</li>
+            <li><input type="checkbox" class="progress-check" data-topic="dom-styling"> Styling Elements</li>
+          </ul>
+          <a href="https://youtu.be/0ik6X4DJKCc" target="_blank">Watch Tutorial</a>
+          <p>Exercises:
+            <ul>
+              <li>Build a button to change the page's background color.</li>
+              <li>Create a to-do list app with add/remove features.</li>
+            </ul>
+          </p>
+          <p>Extra Theory:
+            <ul>
+              <li>Event Bubbling and Capturing: Understand event flow.</li>
+              <li>Best Practices: Separate JavaScript and HTML for maintainability.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <!-- Advanced Concepts -->
+      <div class="topic">
+        <h3>4. Advanced JavaScript Concepts</h3>
+        <div class="topic-content">
+          <ul>
+            <li><input type="checkbox" class="progress-check" data-topic="advanced-closures"> Closures</li>
+            <li><input type="checkbox" class="progress-check" data-topic="advanced-this"> The 'this' Keyword</li>
+            <li><input type="checkbox" class="progress-check" data-topic="advanced-prototype"> Prototypes and Inheritance</li>
+            <li><input type="checkbox" class="progress-check" data-topic="advanced-promises"> Promises and async/await</li>
+          </ul>
+          <a href="https://youtu.be/8aGhZQkoFbQ" target="_blank">Watch Tutorial</a>
+          <p>Exercises:
+            <ul>
+              <li>Build a stopwatch with start/stop/reset buttons.</li>
+              <li>Create a promise-based function to simulate API data fetch.</li>
+            </ul>
+          </p>
+          <p>Extra Theory:
+            <ul>
+              <li>Event Loop: Understand asynchronous operations in JavaScript.</li>
+              <li>Debouncing and Throttling: Optimize scroll/resize events.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <!-- More topics can be added here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>Happy Learning! 🚀</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
